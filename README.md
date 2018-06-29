@@ -25,7 +25,7 @@
 + README.md 向导文件
 + requirements.txt 记录了运行程序前所需下载的包
 </br>
-##　安装
+## 安装
     $ git clone git@github.com:greatwallet/ScoreTextMaker.git
     $ cd ScoreTextMaker/
     $ sudo pip3 install -r requirements.txt
