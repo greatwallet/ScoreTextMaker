@@ -24,16 +24,21 @@
 + <b>FA.ipynb 可用jupyter notebook 打开，可完成所有功能</b>
 + README.md 向导文件
 + requirements.txt 记录了运行程序前所需下载的包
+</br>
 ##　安装
-    $ git clone https://
+    $ git clone git@github.com:greatwallet/ScoreTextMaker.git
     $ cd ScoreTextMaker/
     $ sudo pip3 install -r requirements.txt
+</br>
 ## 实现方式
 *  [jupyter notebook](### jupyter notebook)
 *  [py文件命令行参数形式](### py文件命令行参数形式)
+</br>
 ### jupyter notebook
     $ jupyter notebook
+</br>
 点击FA.ipynb之后可进行运行代码，内含全部功能
+</br>
 ### py文件命令行参数形式
 以night.wav文件为demo试运行
 
