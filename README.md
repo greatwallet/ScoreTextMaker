@@ -7,12 +7,14 @@
 ## 概述
 本次大作业主要是利用FFT（快速傅里叶变换）对*.wav格式音频文件进行分段裁剪，分析其时频特性，并根据钢琴88音对应的特征频率，得到音频的简谱；
 </br>
+
 ## 主要功能
 * <b>导入音频文件，并得出其音乐谱（简谱），可导出至文件</b>
 * 对于wav文件，可作出其时域强度图
 * 可将长度一定的wav文件进行切割，产生时间长度较小的子wav文件,<i>一般取0.5秒或1秒</i>。
 * 对于wav文件进行快速傅里叶变换，并作出其FFT频域图像
 </br>
+
 ## 目录下文件
 + assets/ 目录下为背景图，可无视
 + Piano88/ 目录下为钢琴88音的音频文件，感兴趣的朋友也可以拿来做一做频谱分析
@@ -25,20 +27,24 @@
 + README.md 向导文件
 + requirements.txt 记录了运行程序前所需下载的包
 </br>
+
 ## 安装
     $ git clone git@github.com:greatwallet/ScoreTextMaker.git
     $ cd ScoreTextMaker/
     $ sudo pip3 install -r requirements.txt
 </br>
+
 ## 实现方式
 *  [jupyter notebook](### jupyter notebook)
 *  [py文件命令行参数形式](### py文件命令行参数形式)
 </br>
+
 ### jupyter notebook
     $ jupyter notebook
 </br>
 点击FA.ipynb之后可进行运行代码，内含全部功能
 </br>
+
 ### py文件命令行参数形式
 以night.wav文件为demo试运行
 
